@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .tableContent {
+        @apply grid hover:bg-slate-500  hover:text-white transition duration-200 rounded-lg w-1/2 mx-auto cursor-pointer  grid-cols-3 font-semibold text-sm md:text-sm gap-4  border-b-2 border-red-50 py-4 items-center p-4
+    }
+    .tableHeader {
+        @apply grid
+        grid-cols-3
+        mx-auto
+        text-center
+        font-bold
+        gap-4
+        pb-2
+        items-center
+        mt-4
+        p-4
+        text-xl
+        w-1/2
+    }
+}
